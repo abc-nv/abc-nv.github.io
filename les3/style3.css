@@ -1,0 +1,12 @@
+.first {background-color: red;}
+.last {background-color: yellow;}
+.only {background-color: green;}
+.not {background-color: blue;}
+
+.not:not(.only) {background-color:white; }
+
+code:only-child { background-color: purple; }
+
+td:last-of-type {background-color: silver;}
+
+td:first-of-type {background-color: olive;}

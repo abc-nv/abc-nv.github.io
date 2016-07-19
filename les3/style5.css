@@ -1,0 +1,6 @@
+tr:nth-child(even) {
+	background-color: blue;
+}
+td:nth-child(2n+3) {
+	background-color: olive;
+}

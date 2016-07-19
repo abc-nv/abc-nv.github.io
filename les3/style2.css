@@ -1,0 +1,6 @@
+header + p {
+  font-size: 20px;
+  }
+header ~ p:last-child {
+  color: red;
+  }
