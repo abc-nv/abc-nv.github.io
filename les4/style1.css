@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Economica:400,700);
+div {
+  background-color: purple;
+  line-height:40px;
+}
+@font-face {
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Economica Bold'), local('Economica-Bold'), url(http://fonts.gstatic.com/s/economica/v4/UK4l2VEpwjv3gdcwbwXE9Ogdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+span {
+  color: white;
+  font-style: Economica bold; 
+  }
+@import url(http://fonts.googleapis.com/css?family=Economica:400,700);
+div.line {
+  background-color: purple;
+  line-height:40px;
+}
+div.menu {
+  width:900px;
+  margin: auto;
+}
+span {
+  
+  color: white;
+  font-style: Economica bold; 
+  display: inline-block;
+  padding:5px 10px; 
+}
+span:hover {
+  color: black;
+  background-color: grey;
+}

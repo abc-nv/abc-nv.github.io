@@ -1,0 +1,20 @@
+div.menu {
+  width:900px;
+  margin: auto;
+}
+p.line {
+  line-height:20px;
+  margin:2px;
+  border-radius: 8px;
+  color: purple;
+  float:left;
+  padding:20px; 
+}
+p.line:hover {
+  color: white;
+  background-color: purple;
+}
+.del {
+ line-height:17px;
+  vertical-align:top;
+}

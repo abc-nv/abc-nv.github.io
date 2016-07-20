@@ -1,0 +1,21 @@
+.line {
+  background-color: purple;
+  line-height:40px;
+  overflow:hidden;
+}
+div.menu {
+  width:900px;
+  margin: auto;
+}
+span {
+  color: white;
+  float:left;
+  padding:5px 10px; 
+}
+span:hover {
+  color: black;
+  background-color: grey;
+}
+.right {
+    float:right;
+}
