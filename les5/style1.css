@@ -1,0 +1,50 @@
+div {
+  width: 900px;
+  background-color: red;
+}
+div.all {
+  width: 100%;
+    background-color: purple;
+}
+body, ul{
+    margin: 0;
+    padding: 0;
+}
+ul, ul:after, ul.menu > li > a, ul.submenu > li, ul.submenu > li > a, ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+ul.menu > li > a, ul.submenu > li > a {
+    padding: 10px;
+    color: white;
+    background-color: purple;
+    text-decoration: none;
+}
+body {
+    font: 14px 'Verdana';
+}
+ul {
+    list-style: none;
+}
+ul:after {
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a:hover {
+    background-color: grey;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
