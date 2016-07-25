@@ -1,0 +1,33 @@
+body {
+	font-family: sans-serif;
+	background-image: url(bg1_task2.png);
+}
+.comments {
+
+}
+.header {
+	text-align: center;
+	padding: 25px 0;
+	color: #336699;
+}
+.first-word {
+	color: #ff9933;
+}
+.img {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+}
+img {
+	left: -2px;
+	position: absolute;
+}
+.content {
+	width: 380px;
+	font-size: 13px;
+	background-color: #fff;
+}
+.add {
+	display: inline-block;
+}
