@@ -1,0 +1,78 @@
+*, html, body, .sivtsev {
+	margin: 0;
+	padding: 0;
+}
+.sivtsev {
+	border: 1px solid black;
+	font-family: Tahoma, Geneva, sans-serif;
+	width: 400px;
+}
+.uline {
+	border-bottom: 1px solid red;
+}
+p{
+	padding: 0 15px 0 10px;
+	color: rgba(0,0,0,0);
+	text-shadow: 0 0 5px #555;
+}
+.sight01 {
+	font-size: 100px;
+	word-spacing: 185px;
+	padding-bottom: 45px;
+}
+.sight02 {
+	font-size: 92px;
+	word-spacing: 60px;
+	padding-bottom: 45px;
+}
+.sight03 {
+	font-size: 80px;
+	word-spacing: 15px;
+	padding-bottom: 45px;
+}
+.sight04 {
+	font-size: 70px;
+	word-spacing: 10px;
+	padding-bottom: 42px;
+}
+.sight05 {
+	font-size: 60px;
+	word-spacing: 17px;
+	padding-bottom: 42px;
+}
+.sight06 {
+	font-size: 50px;
+	word-spacing: 15px;
+	padding-bottom: 40px;
+}
+.sight07 {
+	font-size: 40px;
+	word-spacing: 26px;
+	padding-bottom: 39px;
+}
+.sight08 {
+	font-size: 30px;
+	word-spacing: 26px;
+	padding-bottom: 36px;
+}
+.sight09 {
+	font-size: 20px;
+	word-spacing: 37px;
+	padding-bottom: 30px;
+}
+.sight10 {
+	font-size: 15px;
+	word-spacing: 34px;
+	padding-bottom: 15px;
+}
+.sight15 {
+	padding-top: 17px;
+	font-size: 10px;
+	word-spacing: 40px;
+	padding-bottom: 32px;
+}
+.sight20 {
+	font-size: 8px;
+	word-spacing: 42px;
+	padding-bottom: 15px;
+}
