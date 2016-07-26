@@ -5,7 +5,7 @@ body {
 .comments {
 
 }
-.header {
+.header-page {
 	text-align: center;
 	padding: 25px 0;
 	color: #336699;
@@ -14,6 +14,7 @@ body {
 	color: #ff9933;
 }
 .img {
+	float: left;
 	width: 100px;
 	height: 100px;
 	position: relative;
@@ -24,10 +25,50 @@ img {
 	position: absolute;
 }
 .content {
+	margin: 0 10px 10px 25px;
+	padding: 10px;
+	float: right;
+	position: relative;
 	width: 380px;
 	font-size: 13px;
 	background-color: #fff;
+	min-height: 80px;
+}
+.content::before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right: 20px solid white;
+	left: -40px;
+	top: 30px;
 }
 .add {
+	margin-bottom: 30px;
+	margin-left: 25px;
+	vertical-align: top;
+	clear: both;
 	display: inline-block;
+	width: 540px;
+}
+.header {
+	color: lightblue;
+	font-style: italic;
+	padding-bottom: 10px;
+	overflow: hidden;
+	border-bottom: 1px dotted gray;
+}
+.client {
+	float: left;
+}
+.client::before {
+	content: '- '
+}
+.type {
+	float: right;
+}
+.text {
+	clear: both;
+	padding: 10px;
 }
